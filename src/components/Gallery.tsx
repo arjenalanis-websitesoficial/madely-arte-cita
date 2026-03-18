@@ -1,12 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
 
-import galleryBirthday from "@/assets/gallery-birthday.jpg";
-import galleryWedding from "@/assets/gallery-wedding.jpg";
-import galleryEvents from "@/assets/gallery-events.jpg";
-import galleryCupcakes from "@/assets/gallery-cupcakes.jpg";
-import galleryThemed from "@/assets/gallery-themed.jpg";
-import heroCake from "@/assets/hero-cake.jpg";
 import galleryThemed2 from "@/assets/gallery-themed-2.jpg";
 import galleryBirthday2 from "@/assets/gallery-birthday-2.jpg";
 import galleryEvents2 from "@/assets/gallery-events-2.jpg";
@@ -19,15 +13,9 @@ import galleryRatatouille from "@/assets/gallery-ratatouille.jpg";
 import galleryBarbie from "@/assets/gallery-barbie.jpg";
 import galleryMario from "@/assets/gallery-mario.jpg";
 
-const categories = ["Todos", "Cumpleaños", "Bodas", "Eventos", "Cupcakes", "Temáticos"];
+const categories = ["Todos", "Cumpleaños", "Eventos", "Temáticos"];
 
 const galleryItems = [
-  { src: galleryBirthday, alt: "Pastel de cumpleaños elegante", category: "Cumpleaños" },
-  { src: galleryWedding, alt: "Pastel de bodas con rosas", category: "Bodas" },
-  { src: galleryEvents, alt: "Mesa de postres para evento", category: "Eventos" },
-  { src: galleryCupcakes, alt: "Cupcakes artesanales decorados", category: "Cupcakes" },
-  { src: galleryThemed, alt: "Pastel temático infantil", category: "Temáticos" },
-  { src: heroCake, alt: "Pastel de bodas dorado", category: "Bodas" },
   { src: galleryThemed2, alt: "Pastel temático musical con figuras", category: "Temáticos" },
   { src: galleryBirthday2, alt: "Pastel infantil de ositos cariñosos", category: "Cumpleaños" },
   { src: galleryEvents2, alt: "Pastel temático Super Bowl NFL", category: "Eventos" },
