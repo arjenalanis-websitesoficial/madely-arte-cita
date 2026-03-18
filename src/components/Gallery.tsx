@@ -10,6 +10,14 @@ import heroCake from "@/assets/hero-cake.jpg";
 import galleryThemed2 from "@/assets/gallery-themed-2.jpg";
 import galleryBirthday2 from "@/assets/gallery-birthday-2.jpg";
 import galleryEvents2 from "@/assets/gallery-events-2.jpg";
+import galleryFairy from "@/assets/gallery-fairy.jpg";
+import galleryGarfield from "@/assets/gallery-garfield.jpg";
+import galleryMonsters from "@/assets/gallery-monsters.jpg";
+import galleryJurassic from "@/assets/gallery-jurassic.jpg";
+import galleryBlippi from "@/assets/gallery-blippi.jpg";
+import galleryRatatouille from "@/assets/gallery-ratatouille.jpg";
+import galleryBarbie from "@/assets/gallery-barbie.jpg";
+import galleryMario from "@/assets/gallery-mario.jpg";
 
 const categories = ["Todos", "Cumpleaños", "Bodas", "Eventos", "Cupcakes", "Temáticos"];
 
@@ -23,6 +31,14 @@ const galleryItems = [
   { src: galleryThemed2, alt: "Pastel temático musical con figuras", category: "Temáticos" },
   { src: galleryBirthday2, alt: "Pastel infantil de ositos cariñosos", category: "Cumpleaños" },
   { src: galleryEvents2, alt: "Pastel temático Super Bowl NFL", category: "Eventos" },
+  { src: galleryFairy, alt: "Pastel de hadas con hongos y mariposas", category: "Temáticos" },
+  { src: galleryGarfield, alt: "Pastel temático de Garfield", category: "Cumpleaños" },
+  { src: galleryMonsters, alt: "Pastel de Monsters Inc con Sulley y Mike", category: "Temáticos" },
+  { src: galleryJurassic, alt: "Pastel de Jurassic World con dinosaurios", category: "Cumpleaños" },
+  { src: galleryBlippi, alt: "Pastel de Blippi con maquinaria", category: "Cumpleaños" },
+  { src: galleryRatatouille, alt: "Pastel de Ratatouille con Remy", category: "Temáticos" },
+  { src: galleryBarbie, alt: "Pastel de Barbie Spa Party", category: "Cumpleaños" },
+  { src: galleryMario, alt: "Pastel de Super Mario Bros y Sonic", category: "Temáticos" },
 ];
 
 const Gallery = () => {
