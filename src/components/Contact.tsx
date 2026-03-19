@@ -48,13 +48,14 @@ const Contact = () => {
             <div>
               <h3 className="font-display text-lg font-semibold text-foreground mb-1">WhatsApp</h3>
               <a
-                href="https://wa.me/528112345678"
+                href="https://wa.me/528117836795"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-body text-sm text-primary hover:underline"
               >
                 Envíanos un mensaje
               </a>
+              <p className="font-body text-xs text-muted-foreground/70 mt-1">Solo mensajes, no llamadas</p>
             </div>
           </div>
 
