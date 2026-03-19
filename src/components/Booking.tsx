@@ -13,7 +13,7 @@ const Booking = () => {
 
   const handleWhatsApp = () => {
     const msg = `Hola Madely! Me gustaría agendar una cita.\n\nNombre: ${form.nombre}\nFecha del evento: ${form.fecha}\nTipo de pedido: ${form.tipo}\nIdea del diseño: ${form.idea}`;
-    window.open(`https://wa.me/528112345678?text=${encodeURIComponent(msg)}`, "_blank");
+    window.open(`https://wa.me/528117836795?text=${encodeURIComponent(msg)}`, "_blank");
   };
 
   return (
