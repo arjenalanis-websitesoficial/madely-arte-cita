@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Cake, CakeSlice, UtensilsCrossed, Palette } from "lucide-react";
+import { Cake, CakeSlice, Palette } from "lucide-react";
 
 const services = [
   {
