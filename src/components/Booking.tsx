@@ -104,7 +104,7 @@ const Booking = () => {
               WhatsApp
             </button>
             <a
-              href="https://instagram.com/madely"
+              href="https://instagram.com/valecisnerosmadely"
               target="_blank"
               rel="noopener noreferrer"
               className="flex-1 flex items-center justify-center gap-2 bg-accent text-accent-foreground font-body text-sm font-semibold uppercase tracking-[0.1em] py-3.5 rounded-sm hover:opacity-90 transition-opacity"
