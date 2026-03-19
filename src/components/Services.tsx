@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Cake, CakeSlice, UtensilsCrossed, Palette } from "lucide-react";
+import { Cake, CakeSlice, Palette } from "lucide-react";
 
 const services = [
   {
@@ -12,11 +12,6 @@ const services = [
     icon: CakeSlice,
     title: "Cupcakes decorados",
     description: "Pequeñas obras de arte con sabores y decoraciones artesanales.",
-  },
-  {
-    icon: UtensilsCrossed,
-    title: "Mesas de postres",
-    description: "Montajes completos que transforman tu evento en una experiencia visual.",
   },
   {
     icon: Palette,
@@ -45,7 +40,7 @@ const Services = () => {
           </p>
         </motion.div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto">
           {services.map((service, i) => (
             <motion.div
               key={service.title}

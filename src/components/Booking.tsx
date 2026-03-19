@@ -13,7 +13,7 @@ const Booking = () => {
 
   const handleWhatsApp = () => {
     const msg = `Hola Madely! Me gustaría agendar una cita.\n\nNombre: ${form.nombre}\nFecha del evento: ${form.fecha}\nTipo de pedido: ${form.tipo}\nIdea del diseño: ${form.idea}`;
-    window.open(`https://wa.me/528112345678?text=${encodeURIComponent(msg)}`, "_blank");
+    window.open(`https://wa.me/528117836795?text=${encodeURIComponent(msg)}`, "_blank");
   };
 
   return (
@@ -76,7 +76,6 @@ const Booking = () => {
                 <option value="">Selecciona una opción</option>
                 <option value="Pastel personalizado">Pastel personalizado</option>
                 <option value="Cupcakes decorados">Cupcakes decorados</option>
-                <option value="Mesa de postres">Mesa de postres</option>
                 <option value="Diseño temático">Diseño temático</option>
               </select>
             </div>
@@ -104,7 +103,7 @@ const Booking = () => {
               WhatsApp
             </button>
             <a
-              href="https://instagram.com/madely"
+              href="https://instagram.com/valecisnerosmadely"
               target="_blank"
               rel="noopener noreferrer"
               className="flex-1 flex items-center justify-center gap-2 bg-accent text-accent-foreground font-body text-sm font-semibold uppercase tracking-[0.1em] py-3.5 rounded-sm hover:opacity-90 transition-opacity"
