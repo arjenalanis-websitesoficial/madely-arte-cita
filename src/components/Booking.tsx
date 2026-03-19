@@ -76,7 +76,7 @@ const Booking = () => {
                 <option value="">Selecciona una opción</option>
                 <option value="Pastel personalizado">Pastel personalizado</option>
                 <option value="Cupcakes decorados">Cupcakes decorados</option>
-                <option value="Diseño temático">Diseño temático</option>
+                <option value="Cursos">Cursos</option>
               </select>
             </div>
             <div>
