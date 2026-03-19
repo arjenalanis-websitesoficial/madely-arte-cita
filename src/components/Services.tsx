@@ -14,11 +14,6 @@ const services = [
     description: "Pequeñas obras de arte con sabores y decoraciones artesanales.",
   },
   {
-    icon: UtensilsCrossed,
-    title: "Mesas de postres",
-    description: "Montajes completos que transforman tu evento en una experiencia visual.",
-  },
-  {
     icon: Palette,
     title: "Diseños temáticos",
     description: "Creaciones inspiradas en la temática de tu evento o celebración.",
