@@ -64,12 +64,12 @@ const Contact = () => {
             <div>
               <h3 className="font-display text-lg font-semibold text-foreground mb-1">Instagram</h3>
               <a
-                href="https://instagram.com/madely"
+                href="https://instagram.com/valecisnerosmadely"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-body text-sm text-primary hover:underline"
               >
-                @madely
+                @valecisnerosmadely
               </a>
             </div>
           </div>
