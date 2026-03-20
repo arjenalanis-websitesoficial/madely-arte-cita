@@ -30,7 +30,7 @@ const Hero = () => {
           transition={{ duration: 1, delay: 0.4 }}
           className="font-display text-5xl md:text-7xl font-bold text-foreground leading-tight mb-6"
         >
-          Madely
+          Vale Cisneros
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
