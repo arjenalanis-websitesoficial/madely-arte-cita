@@ -15,8 +15,8 @@ const services = [
   },
   {
     icon: Palette,
-    title: "Diseños temáticos",
-    description: "Creaciones inspiradas en la temática de tu evento o celebración.",
+    title: "Cursos",
+    description: "Aprende técnicas de decoración y repostería con clases personalizadas y grupales.",
   },
 ];
 
